@@ -1,0 +1,475 @@
+@import url('https://fonts.maateen.me/charu-chandan/font.css');
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    position: absolute;
+    left:10px;
+	top: 53px;
+	height: 20px;
+	
+}
+.logo a {
+	font-family: 'Charu Chandan', sans-serif;
+    text-shadow: 2px 2px 30px rgba(235, 45, 45, 0.725);
+	font-weight: bolder;
+	color: #12707a;
+	font-size:3rem;
+    letter-spacing: 1;
+}
+
+.section1{
+    position:absolute;
+    left:15%;
+    top: 50%;
+    transform: translate(-15%,-50%);
+}
+.section1 img {
+    height: 300px;
+}
+.section1Button{
+	position: absolute;
+
+	top: 50%;
+	left:80%;
+	transform: translate(-90%,-50%);
+
+}
+
+
+.btn a{
+text-decoration: none;
+	color: #fbfbfb;
+
+
+}
+
+
+.section1Button h1, h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 3px;
+    line-height: 40px;
+	font-size: 2rem;
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.08);
+    color:#3D3D4A;
+
+}
+span {
+color:	#7A72FF;
+}
+
+
+
+
+.btn {
+    width:250px;
+	height: 60px;
+	background-color: #2f2e41;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+	   margin-left: auto;
+      margin-right: auto;
+	margin-top: 20px;
+	color:#fff;
+	font-family: calibri;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+}
+.btn:hover{
+   
+	color:#FFFFFF;
+	background-color: #6e64ff;
+	transition: all ease 0.5s;
+
+} 
+
+.iconArea{
+	position:fixed;
+	left: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	padding: 5px 0px;
+	z-index: 1;
+}
+
+.iconArea a{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 15px;
+}
+
+
+.iconArea a i{
+	color:rgba(0, 4, 9, 0.6);
+}
+ 
+
+.iconArea a:hover .fa-facebook-f{
+	color: #16b6e7;
+}
+.iconArea a:hover .fa-twitter{
+	color: #00acee ;
+}
+.iconArea a:hover .fa-instagram{
+	color: #ce60ec;
+	
+}
+.iconArea a:hover .fa-youtube{
+ 
+	color: 	#FF0000;
+}
+
+.productSection {
+	width: 85%;
+	background-color: #fafafadc;
+	box-shadow: 2px 2px 30px rgba(59, 46, 174, 0.2);
+	display: flex;
+	margin:30px auto;
+	flex-direction: column;
+	align-items: center;
+	padding:25px 20px;
+	margin-top: auto;
+	position: relative;
+	background-size:1000px;
+	border-radius: 10px;
+
+
+}
+.productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust spacing between items */
+    justify-content: center; /* Center items horizontally */
+}
+
+#product {
+    flex: 1 1 calc(33.33% - 20px); /* Adjust width to fit 3 items per row */
+    max-width: 500px; /* Ensure iframe doesn't exceed its natural width */
+    box-sizing: border-box;
+}
+.productSection > h3{
+	margin:20px;
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+	font-family: myriad pro;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-align: center;
+	font-size:2rem;
+	color:#323543;
+}
+.product{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 10px 0px;
+	width:100%;
+}
+
+
+.product{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 10px 0px;
+	width:100%;
+}
+
+.productBox{
+	width:250px;
+	height: 330px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 8px;
+	position: relative;
+	margin: 10px 30px;
+	background-color: rgba(131, 233, 184, 0.145);
+
+}
+
+.productBox img {
+	height: 180px;
+}
+
+.productBox p{
+	color:#021b1dcd;
+	font-family: myriad pro;
+	font-size: 0.9rem;
+	letter-spacing: 0.5;
+}
+.productBox a{
+	color:#373434;
+	font-family: poppins;
+	font-size: 1rem;
+}
+
+
+.BuyBtn{
+	position: absolute;
+	width:140px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:calibri;
+	left: 50%;
+	bottom: -20px;
+	transform: translateX(-50%);
+	border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
+	background:linear-gradient(120deg,#6b60ec 20%,#a166f4);
+	color:#FFFFFF;
+	display: none;
+	animation: fade 0.2s;
+}
+
+.productBox:hover .BuyBtn{
+	display: flex;
+}
+
+.productBox:hover{
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+	background-color:#FFFFFF;
+}
+.productBox:hover a:last-child{
+	color: #fff;
+	transition: all ease 0.3s;
+	
+}
+
+.about{
+	display: flex;
+	width: 85%;
+	margin:50px auto;
+	justify-content: space-around;
+	align-items: center;
+	padding:30px;
+	margin-bottom: 150px !important;
+}
+
+.aboutBox{
+	width:40%;
+	font-family:myriad pro;
+}
+
+.aboutBox img{
+	width:100%;
+	height: 100%;
+	object-fit:contain;
+}
+.animatedBorder {
+    position: relative;
+    display: inline-block;
+    border: 5px solid transparent; /* Initial border */
+    border-radius: 10px; /* Rounded corners */
+    animation: borderGlow 2s infinite; /* Animation effect */
+}
+
+@keyframes borderGlow {
+    0% {
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5), 0 0 20px rgba(255, 0, 0, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0.6), 0 0 30px rgba(0, 255, 0, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(0, 0, 255, 0.5), 0 0 20px rgba(0, 0, 255, 0.4);
+    }
+}
+.aboutBox h1{
+	color:#333333;
+	font-weight: 700;
+	font-size:3rem;
+	margin:0px;
+}
+.aboutBox h4{
+	color: #333333;
+	font-weight: 400;
+	font-size:2rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.aboutBox p{
+	font-size: 1rem;
+	color:#bdbdbd;
+	letter-spacing: 0.5px;
+
+}
+.Notification{
+	width:100%;	
+	height:250px;
+	margin-bottom:30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	}
+
+
+	.Notification h3{
+		font-size: 2rem;
+		color: rgb(56, 56, 56);
+		}
+
+
+		.NotificationInput{
+			width:500px;
+			background-color: #fff;
+			border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+			height: 60px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding:5px 20px;
+			box-shadow: 2px 5px 30px rgba(0,0,0,0.1);
+			margin-top: 30px;
+		}
+
+
+		.NotificationInput input{
+			width:100%;
+			height: 40px;
+			border: none;
+			outline: none;
+			background-color: transparent;
+		}
+
+
+	
+		.NotificationButton{
+			width:120px;
+			height: 40px;
+			background-color: #202020;
+			border-radius: 20px;
+			color: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-transform: uppercase;
+			font-weight: bold;
+			box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+			font-size: 1rem;
+		}
+		.NotificationButton:hover{
+			background-color:#6b60ec;
+			transition: all  ease 0.5s;
+		}
+	
+		footer {
+			background-color: black!important;
+			padding:20px;
+		}
+		footer p {
+			text-align: center;
+			color: #f2f2f2;
+		} 
+
+@media (max-width: 768px) {
+
+    .section1 {
+      position: static;
+      transform: none;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .section1 img {
+      height: auto;
+      width: 80%;
+    }
+
+    .section1Button {
+      position: static;
+      transform: none;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .section1Button h1,
+    .section1Button h2 {
+      font-size: 2rem;
+      line-height: normal;
+    }
+
+    .btn {
+      width: 120px;
+      height: 35px;
+      font-size: 0.9rem;
+    }
+
+    .iconArea {
+      position: static;
+      transform: none;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .iconArea a {
+      padding: 10px;
+    }
+
+    .about {
+      flex-direction: column;
+      padding: 20px;
+	  
+    }
+
+    .aboutBox {
+      width: 100%;
+      margin-bottom: 20px;
+	  
+    }
+
+	
+    .NotificationInput {
+      width: 90%;
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+
+    .NotificationInput input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .NotificationButton {
+      width: 100%;
+    }
+
+    .productBox {
+      margin: 10px;
+      width: 90%;
+    }
+  }
